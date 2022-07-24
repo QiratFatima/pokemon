@@ -1,0 +1,672 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Official Pokemon Website | Pokemon.com</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="shortcut icon"
+        href="data:image/jpeg;base64,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"
+        type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css
+        ">
+   
+</head>
+
+<body>
+    <div class="top">
+        <ul>
+            <li id="a"><img src="https://assets.pokemon.com/assets/cms2/img/misc/gus/buttons/logo-pokemon-79x45.png"
+                    alt=""></li>
+            <li id="b"><img id="w"
+                    src="https://assets.pokemon.com/assets/cms2/img/misc/gus/buttons/logo-pokemoncenter-79x45.png"
+                    alt=""></li>
+            <li id="c"><img id="v" src="https://assets.pokemon.com/assets/cms2/img/misc/gus/buttons/corporate-en.png"
+                    alt=""></li>
+            <li id="d"><img src="https://assets.pokemon.com/assets/cms2/img/misc/gus/promotions/pgo-gus-175-en.jpg"
+                    alt=""></li>
+            <li id="e"><img
+                    src="https://assets.pokemon.com/assets/cms2/img/misc/gus/promotions/legends-arceus-176x50-us.jpg"
+                    alt=""></li>
+            <li id="f"><img src="https://assets.pokemon.com/assets/cms2/img/misc/gus/promotions/unite-176x50.jpg"
+                    alt=""></li>
+        </ul>
+    </div>
+
+
+
+
+
+
+    <div class="abc">
+        <ul class="bbb">
+            <li class="ppp"><img id="home" src="../home.png" alt=""></li>
+            <li><img id="pokedox" src="../pokedox.png" alt=""></li>
+            <li><img id="videogame" src="../video games and apps.png games and apps.png" alt=""></li>
+            <li><img id="trading" src="../trading card game.png card game.png" alt=""></li>
+            <li><img id="pokemontv" src="../poekon tv.png tv.png" alt=""></li>
+            <li><img id="play" src="../play pokemon events.png pokemon events.png" alt=""></li>
+            <li><img id="news" src="../news.png" alt=""></li>
+        </ul>
+    </div>
+    <div>
+        <div class="login">
+            <img id="login" src="../images/Screenshot 2022-07-16 164900.png 164900.png" alt="">
+            <p id="log">Log In</p>
+        </div>
+        <div class="search">
+            <img id="search" src="../images/search.png" alt="">
+        </div>
+        <div class="lightgreen"></div>
+    </div>
+    <div class="gray"></div>
+
+
+
+
+
+    <!-- <div class="kkk">
+        <div>
+            <img id="img1"
+                src="https://assets.pokemon.com/assets//cms2/img/video-games/_tiles/pokemon-unite/07152022/pokemon-unite-169-en.jpg"
+                alt="">
+        </div>
+        <div class="h1">
+            <h1>Happy Birthday, Pokemon UNITE!</h1>
+            <p id="para">Celebrate with new Unite Licences,Boss Rush quick <br> battles, Battle Pass Season 9, and many more.</p>
+        </div>
+        <div><img id="fantasyviolence" src="https://assets.pokemon.com/assets//cms2/img/video-games/rating-logos/e10_fantasyviolence.jpg" alt=""></div>
+    </div>
+
+
+<div id="lightblue"></div>
+    <div id="hello"></div> -->
+
+
+    <!-- main content -->
+
+    <div>
+
+        <div id="lol">
+            <div class="card" style="width: 35rem;">
+
+                <a target="_blank"
+                    href="https://www.pokemon.com/us/pokemon-news/celebrate-pokemon-unite-s-1st-anniversary-with-glaceon-and-boss-rush-quick-battles/"><img
+                        src="https://assets.pokemon.com/assets//cms2/img/video-games/_tiles/pokemon-unite/07152022/pokemon-unite-169-en.jpg"
+                        class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                    <h1 class="card-text-2">Happy Birthday,Pokemon UNITE!</h1>
+                    <p class="card-text">Celebrate with new Unite Licences,Boss Rush quick <br> battles, Battle Pass
+                        Season 9, and many more.</p>
+                </div>
+                <div><img id="fantasyviolence"
+                        src="https://assets.pokemon.com/assets//cms2/img/video-games/rating-logos/e10_fantasyviolence.jpg"
+                        alt=""></div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div id="hen">
+        <div class="2card mb-3" id="hello2" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <a target="_blank"
+                        href="https://www.pokemon.com/us/strategy/regigigas-deck-strategy-six-powerful-pokemon-line-up-for-battle/">
+                        <img src="https://assets.pokemon.com/assets//cms2/img/trading-card-game/_tiles/strategy/swsh10/regigigas/swsh10-regigigas-34-en.jpg"
+                            class="img-fluid rounded-start" id="img" alt="..."></a>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Deck <br> Strategy: <br> Regigigas</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <div id="chicken">
+        <div class="3card" id="hello3" style="width: 18rem;">
+            <a target="_blank"
+                href="https://www.pokemon.com/us/strategy/tips-to-defeat-team-go-rockets-sierra-cliff-and-arlo-in-pokemon-go/">
+                <img id="img2"
+                    src="https://assets.pokemon.com/assets//cms2/img/video-games/_tiles/strategy/go/team-go-rocket/pokemon-go-169.jpg"
+                    class="card-img-top" alt="..."></a>
+            <div class="card-body">
+                <p class="card-text" id="card3-text"> Defeat Team GO Rocket's <br> Sierra, Cliff, and Arlo in <br>
+                    Pokemon GO</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div id="dog">
+        <div class="4card" id="hello4" style="width: 18rem;">
+            <a target="_blank"
+                href="https://www.pokemon.com/us/pokemon-tcg/product-gallery/heavy-hitters-premium-collection/">
+                <img id="gamesreturnimg"
+                    src="https://assets.pokemon.com/assets//cms2/img/trading-card-game/series/incrementals/heavy-hitters-premium-collection/heavy-hitters-premium-collection-169.jpg"
+                    class="card-img-top" alt="..."></a>
+            <div class="card-body">
+                <h1 id="gamesreturn">Jump Into Battle With <br> Powerhouse Pokemon<br> and Loads Of Cards</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div id="chick">
+        <div class="5card" id="hello5" style="width: 18rem;">
+            <img id="img3"
+                src="https://assets.pokemon.com/assets//cms2/img/video-games/_tiles/strategy/go/moltres/pokemon-go-169.jpg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h1 id="moltres"> Moltres Pokemon GO <br> Raid Battle Strategy</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div id="cat">
+        <div class="6card" id="hello6" style="width: 18rem;">
+            <a target="_blank"
+                href="https://www.pokemon.com/us/pokemon-news/more-pokemon-primers-for-young-readers-habitats-and-opposites/">
+                <img id="img4"
+                    src="https://assets.pokemon.com/assets//cms2/img/misc/_tiles/pokemon-primers/04/pokemon-primers-169.png"
+                    class="card-img-top" alt="..."></a>
+            <div class="card-body">
+                <h1 id="poketoon">More <em> Pokemon Primers</em> <br> For Young Readers: <br> Habitats And Opposites
+                </h1>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div id="div">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+
+
+
+
+
+                <div class="carousel-item active">
+                    <img id="carousel1" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//077.png"
+                        class="d-block w-100" alt="...">
+                    <h2 class="c1t"> Ponyta 77</h2>
+                    <p class="c1tp">Type <button id="fire">Fire</button><br>
+                        Abilities Run Away / Flash Fire</p>
+                </div>
+
+
+
+                <div class="carousel-item">
+                    <img id="carousel2" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//089.png"
+                        class="d-block w-100" alt="...">
+                    <h2 class="c1t"> Muk 89</h2>
+                    <p class="c1tp">Type <button id="poison">Poison</button><br>
+                        Abilities Stench / Sticky Hold</p>
+                </div>
+
+
+
+
+                <div class="carousel-item">
+                    <img id="carousel3" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//113.png"
+                        class="d-block w-100" alt="...">
+                    <h2 class="c1t"> Chansey 113</h2>
+                    <p class="c1tp">Type <button id="normal">Normal</button><br>
+                        Abilities Nature Cure / Serene Grace</p>
+                </div>
+
+
+
+                <div class="carousel-item">
+                    <img id="carousel4" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//289.png"
+                        class="d-block w-100" alt="...">
+                    <h2 class="c1t">Slaking 289 </h2>
+                    <p class="c1tp">Type <button id="normal">Normal</button><br>
+                        Abilities Truant</p>
+                </div>
+
+
+
+
+                <div class="carousel-item">
+                    <img id="carousel5" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//303.png"
+                        class="d-block w-100" alt="...">
+                    <h2 class="c1t">Mawille 303 </h2>
+                    <p class="c1tp">Type <button id="steel">Steel</button>&nbsp;
+                        <button id="fairy">Fairy</button><br>
+                        Abilities 1.Hyper Cutter
+                        2. Intimidate
+                    </p>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="carousel-item">
+                    <img id="carousel6" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//618.png"
+                        class="d-block w-100" alt="...">
+                    <h2 class="c1t">Stunfisk 618</h2>
+                    <p class="c1tp">Type <button id="electric1">Electric</button>&nbsp;
+                        <button id="ground">Ground</button><br>
+                        Abilities Static/Limber
+                    </p>
+                </div>
+
+
+
+
+
+
+
+                <div class="carousel-item">
+                    <img id="carousel7" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//653.png"
+                        class="d-block w-100" alt="...">
+                    <h2 class="c1t">Fennekin 653</h2>
+                    <p class="c1tp">Type <button id="fire2">Fire</button><br>
+                        Abilities Blaze</p>
+                </div>
+
+
+
+
+
+
+                <div class="carousel-item">
+                    <img id="carousel8" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//665.png"
+                        class="d-block w-100" alt="...">
+                    <h2 class="c1t">Spewpa 665</h2>
+                    <p class="c1tp">Type <button id="bug">Bug</button><br>
+                        Abilities Shed Skin</p>
+                </div>
+
+
+
+
+
+
+
+                <div class="carousel-item">
+                    <img id="carousel9" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//571.png"
+                        class="d-block w-100" alt="...">
+                    <h2 class="c1t">Zoroark 571</h2>
+                    <p class="c1tp">Type <button id="dark">Dark</button><br>
+                        Abilities Illusion</p>
+
+                </div>
+
+
+
+
+                <div class="carousel-item">
+                    <img id="carousel10" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//353.png"
+                        class="d-block w-100" alt="...">
+                    <h2 class="c1t">Shuppet 353</h2>
+                    <p class="c1tp">Type <button id="ghost">Ghost</button><br>
+                        Abilities Insomnia/ Frisk</p>
+                </div>
+
+
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <button id="pkn"><img id="iii"
+            src="https://th.bing.com/th/id/OIP.HuA3EK229mHQPI0UIH5TKwHaD4?w=327&h=180&c=7&r=0&o=5&pid=1.7" alt="">
+        Featured Pokemon </button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="row row-cols-1 row-cols-md-2 g-4" >
+        <div class="col">
+            <div class="card" id="div2">
+                <img src="https://assets.pokemon.com/assets//cms2/img/attend-events/championship/2022-naic/2022-naic-vgc-recap-169.gif" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title" id="lesson">Lesson Learned from <br>the 2022 NAIC VGC <br> Tournament</h5>
+                    <p class="card-text" id="regional">Regional Champion Aaron Traylor <br> walks us through the trends from <br> Columbus that are sure impact <br> Wrolds in August</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+        <div class="col">
+            <div class="card" >
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col">
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content.</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col">
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+ -->
+
+
+
+
+
+
+    <div class="10card" id="dive" style="width: 18rem;">
+        <img src="https://assets.pokemon.com/assets//cms2/img/attend-events/championship/2022-naic/2022-naic-vgc-recap-169.gif"
+            class="card-img-top" alt="...">
+        <div>
+            <h5 id="lessons">Lessons Learned from <br> the 2022 NAIC VGC <br> Tournament</h5>
+            <p id="regional">Regional champion Aaron Traylor <br> walks us through the trends from <br> Columbus that
+                are sure to impact <br> Worlds in August</p>
+        </div>
+    </div>
+
+
+
+
+    <div class="11card" id="dive2" style="width: 18rem;">
+        <img src="https://assets.pokemon.com/assets//cms2/img/trading-card-game/_tiles/illustration-exhibition/announce/illustration-exhibition-169.jpg"
+            class="card-img-top" alt="...">
+        <div>
+            <h5 id="get">Get Artsy with the Pokémon TCG</h5>
+            <p id="see">See card art in a whole new way in an online exhibit featuring the distinctive work of 50
+                Pokémon TCG illustrators.</p>
+        </div>
+    </div>
+
+
+    <div class="12card" id="dive3" style="width: 18rem;">
+        <img src="https://assets.pokemon.com/assets//cms2/img/trading-card-game/_tiles/strategy/swsh10/origin-forme-palkia-vstar/swsh10-origin-forme-palkia-vstar-169-en.jpg"
+            class="card-img-top" alt="...">
+        <div>
+            <h3 id="make">Make Space for Origin Forme Palkia VSTAR</h3>
+            <p id="find"> Find out why the Spatial Pokémon is blasting off in competitions around the world.</p>
+        </div>
+    </div>
+
+
+
+    <div class="13card" id="dive4" style="width: 18rem;">
+        <img src="https://assets.pokemon.com/assets//cms2/img/attend-events/championship/2022-naic/2022-naic-pokemon-go-recap-169.jpg"
+            class="card-img-top" alt="...">
+        <div>
+            <h5 id="relive">Relive the First NAIC Pokémon&nbsp;GO Competition</h5>
+            <p id="commentator"> Commentator Gabby Snyder walks us back through the inaugural Pokémon GO tournament at
+                NAIC.</p>
+        </div>
+    </div>
+
+
+
+    <div id="h3">
+        <h3>
+            What's New This <br> Week
+        </h3>
+    </div>
+
+
+
+
+
+    <div class="14card" id="dive5" style="width: 18rem;">
+        <img src="https://assets.pokemon.com/assets//cms2/img/watch-pokemon-tv/_tiles/stunts/fishing/fishing-169-en.png"
+            class="card-img-top" alt="...">
+        <div>
+            <h4 id="hooked">You'll Be Hooked When <br>Ash Goes Fishing on <br>Pokemon Tv </h4>
+        </div>
+    </div>
+
+
+    <div class="15card" id="dive6" style="width: 18rem;">
+        <img src="https://assets.pokemon.com/assets//cms2/img/video-games/_tiles/pokemon-sword-shield/ranked-battles/2022/july-ranked-battle-season-169-en.jpg"
+            class="card-img-top" alt="...">
+        <div>
+            <h5 id="play">Play in the Ranked <br> Battles July 2022 Season <br> (Season 32) Now
+            </h5>
+            <p id="earn">Earn In-Game rewards by competing <br>against <em>Pokemon Sword</em> and <em>Pokemon Shield
+                </em> players from around <br> the world </p>
+        </div>
+
+
+        <div class="card" id="dive7">
+            <div class="card-header" id="view">
+              View Notes
+            </div>
+            <div class="card-body">
+              <h5 class="card-title" id="keep">Keep up with all the latest <br> developments!</h5>
+        
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="footer">
+<!-- Footer -->
+<footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="" role="button"
+          ><img width="30px" src="https://www.bing.com/th?id=OIP.PT0LMMOmfFNgURJ2L0ojgQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="">
+    </a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        >
+    <img width="30px" src="data:image/jpeg;base64,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" alt=""></a>
+  
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><img width="30px" src="https://www.bing.com/th?id=OIP.dz0AoUIACrVD-nybEtW7yAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt=""></a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><img width="30px" src="data:image/jpeg;base64,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" alt=""></a>
+  
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        > <img width="30px" src="https://www.bing.com/th?id=OIP.byRV_suc9RVkx7WLBX1yOwHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt=""></a>
+  
+       
+      </section>
+      <!-- Section: Social media -->
+  
+      
+            
+      
+      
+          <!--Grid column-->
+          
+            <h5 id="company">The Pokemon Company</h5>
+  
+            <ul id="left" class="bg-dark">
+              <li>
+               What's New
+              </li>
+              <br>
+              <li>
+               Pokemon Parents Guide 
+              </li><br>
+              <li>
+                Customer Service
+              </li><br>
+              <li>
+                About our company
+              </li><br>
+              <li>
+    Pokemon Careers
+              </li><br>
+              <li>
+             Select A Country/ Region
+              </li><br>
+              <li>
+                Pokemon Press Site
+              </li><br>
+            </ul>
+          
+          <!--Grid column-->
+  
+          <!--Grid column-->
+<div id="term">
+  
+            <ul class="bg-dark">
+              <li>
+               Terms Of Use
+              </li><br>
+              <li>
+            Privacy Notice
+              </li><br>
+              <li>
+            Cookie Page                 
+            </li><br>
+              <li>
+                Legal Info
+              </li><br>
+              <li>
+                Security
+              </li><br>
+            </ul>
+          </div>
+    </div>
+          <!--Grid column-->
+  
+          
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        ©2022 Pokémon. ©1995 - 2022 Nintendo/Creatures Inc./GAME FREAK inc. TM, ®Nintendo.
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</div>
+
+
+
+
+
+          
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
